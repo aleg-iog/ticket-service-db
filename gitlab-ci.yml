@@ -1,0 +1,7 @@
+stages:
+  - test
+
+test_project:
+  stage: test
+  script:
+    - echo "Database project files are present"
